@@ -1,0 +1,39 @@
+form{
+    background-color: rgb(65, 159, 241);
+    padding:20px;
+    border-radius: 5px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+label{
+    padding:8px;
+    float:left;
+    width:25%;
+    margin-top: 5px;
+    font-weight: bolder;
+    font-size: medium;
+}
+input[type=text],select,[type=number],[type=textarea]{
+    width:50%;
+    padding:12px;
+    margin:8px;
+    box-sizing: border-box;
+    resize:vertical;
+}
+button{
+    padding:8px;
+    /* float:center; */
+    /* width:25%; */
+    margin-top: 5px;
+    margin-left:auto;
+    background-color: rgba(65, 100, 241, 0.823);
+    color:white;
+    font-size: medium;
+    display:flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items:center;
+    cursor: pointer;
+}
